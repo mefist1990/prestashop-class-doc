@@ -3,5 +3,16 @@ PrestaShop/classes/shop/Shop.php
 
 class ShopCore extends ObjectModel
 
- public function setUrl() ????
+* public function setUrl() #вернет true или false
+
+* public function add($autodate = true, $null_values = false)
+    /**
+     * Добавьте магазин и очистите кеш.
+     *
+     * @param bool $autodate
+     * @param bool $null_values
+     * @return bool
+     */
+ 
+ 
  
