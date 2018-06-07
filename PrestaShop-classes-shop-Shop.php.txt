@@ -14,5 +14,10 @@ class ShopCore extends ObjectModel
      * @return bool
      */
  
- 
+ * public function delete()
+     /**
+     * Удалите магазин, только если он не имеет зависимостей, и удалите его ассоциации
+     *
+     * @return bool
+     */
  
